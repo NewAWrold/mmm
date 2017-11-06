@@ -1,0 +1,61 @@
+.prolist_top {
+  height: 38px;
+  line-height: 38px;
+  padding-left: 20px;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ccc;
+  background-image: radial-gradient(#fff, #ebebeb);
+}
+.prolist_content {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.prolist_content li {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.pro_left img {
+  width: 100px;
+  height: 100px;
+}
+.pro_right {
+  overflow: hidden;
+  padding-left: 20px;
+}
+.pro_right .proname {
+  font-size: 14px;
+  height: 44px;
+}
+.pro_right .price {
+  color: red;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.pro_right .info {
+  font-size: 12px;
+  color: gray;
+  line-height: 20px;
+}
+.pro_right .info span {
+  margin-right: 10px;
+}
+.pages span {
+  display: block;
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.pages span button {
+  margin: 0 auto;
+  width: 82px;
+  height: 33px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.pages span select {
+  width: 82px;
+  height: 33px;
+  padding-left: 20px;
+}

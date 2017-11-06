@@ -1,0 +1,40 @@
+.cate_title {
+  height: 40px;
+  background-color: #EDEDED;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  line-height: 40px;
+  padding-left: 20px;
+  font-weight: 700;
+  border-top: none;
+}
+.oneTop {
+  border-top: 1px solid #ccc;
+  border-radius: 5px  5px  0 0;
+}
+.cate_list {
+  width: 100%;
+  display: none;
+}
+.cate_list ul {
+  height: 100%;
+}
+.cate_list li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 40px;
+  line-height: 40px;
+}
+.cate_list li a {
+  font-size: 14px;
+}
+.hide {
+  display: block;
+}
+.now {
+  display: none;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>慢慢买首页</title>
+  <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<div class="container">
+  <!--头部-->
+  <header class="mmm_header">
+    <div class="h_ind_logo">
+      <a href="index.html">
+        <img src="images/header_logo.png">
+        <h1>慢慢买</h1>
+      </a>
+    </div>
+    <div class="h_app_down">
+      <img src="images/header_app.png" alt="">
+    </div>
+  </header>
+
+  <!--内容-->
+  <div class="mmm_body">
+    <!--搜索框-->
+    <div class="ind_search">
+      <div class="input_sou">
+        <input type="text" placeholder="请输入您想比价的商品">
+      </div>
+      <button>搜索</button>
+    </div>
+
+    <div class="one">
+    <!--我要挖坑-->
+    </div>
+
+      <!--网友评价-->
+      <div class="two">
+        <!--挖坑啦-->
+      </div>
+
+    </div>
+    <!--//尾部-->
+    <footer class="mmm_footer">
+      <ul class="clearfixed">
+        <li><a href="javascript:;">登录</a></li>
+        <li><a href="javascript:;">注册</a></li>
+        <li style="width: 40%"><a href="#">返回顶部</a></li>
+      </ul>
+      <p>
+        <span class="red">手机app下载</span>
+        <span>慢慢买手机版 -- </span>
+        <span class="gray">掌上比价平台</span>
+      </p>
+      <p class="gray">m.manmanbuy.com</p>
+    </footer>
+  </div>
+
+
+
+<script type="text/html" id="tpl">
+  <div class="prolist_top">
+    <a href="index.html">首页 ></a>
+    <a href="category.html">全部分类 ></a>
+    <a class="info" href="productlist.html">乐视TV(Letv)S50 > </a> >
+  </div>
+
+  <div class="bijia_body">
+    <div class="show">
+      <span>{{result[0].productName}}</span>
+    </div>
+    <div class="showPic">
+     {{@result[0].productImg  }}
+    </div>
+    <ul class="clearfixed w33">
+      <li>比价购买</li>
+      <li>产品参数</li>
+      <li>评价234</li>
+    </ul>
+    {{@result[0].bjShop}}
+    <!--<div class="bijia_jd clearfixed">-->
+      <!--<div class="jd_left fl">-->
+        <!--<img src="images/ic_coudanpin.png" alt="">-->
+        <!--<span>京东商城</span>-->
+      <!--</div>-->
+      <!--<div class="jd_right fr">-->
+        <!--<span class="pirce">&yen;1999.00</span>-->
+        <!--<button>去购买</button>-->
+      <!--</div>-->
+    <!--</div>-->
+    <p class="zhu">
+      * 实际价格以各网站列出的实时售价为准，我们提供的价格可能有数小时至数日的延迟。
+    </p>
+  </div>
+</script>
+
+
+<script type="text/html" id="discuss">
+  <div class="discuss">
+    <span>网友评价</span>
+  </div>
+  <ul class="disc_content">
+    {{each result v i}}
+    <li>
+      <div class="user">
+        <span>{{v.comName}}</span>
+        <div class="info">
+          <p>{{v.comTime}}</p>
+          <p>{{v.comFrom}}</p>
+        </div>
+      </div>
+      <p class="disc_content">{{v.comContent}}</p>
+    </li>
+    {{/each}}
+  </ul>
+  <a href="#" class="more">查看更多评价</a>
+</script>
+</body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template-web.js"></script>
+<script src="js/common.js"></script>
+<script src="js/bijia.js"></script>
+</html>

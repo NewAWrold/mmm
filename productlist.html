@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>慢慢买首页</title>
+  <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<div class="container">
+  <!--头部-->
+  <header class="mmm_header">
+    <div class="h_ind_logo">
+      <a href="index.html">
+        <img src="images/header_logo.png">
+        <h1>慢慢买</h1>
+      </a>
+    </div>
+    <div class="h_app_down">
+      <img src="images/header_app.png" alt="">
+    </div>
+  </header>
+
+  <!--内容-->
+  <div class="mmm_body">
+    <!--搜索框-->
+    <div class="ind_search">
+      <div class="input_sou">
+        <input type="text" placeholder="请输入您想比价的商品">
+      </div>
+      <button>搜索</button>
+    </div>
+
+
+ <div class="prolist_top">
+   <a href="index.html">首页 ></a>
+   <a href="category.html">全部分类 ></a>
+   <a class="info" href="productlist.html"> </a> >
+ </div>
+
+ <div class="prolist_content">
+   <ul>
+    <!--我来挖一个坑-->
+     <!--<li class="clearfixed">-->
+       <!--<div class="pro_left fl">-->
+         <!--<img src="images/haitao.png" alt="">-->
+       <!--</div>-->
+       <!--<div class="pro_right">-->
+         <!--<p class="proname">乐视TV(Letv)S50 Air全配版2D 50英寸 全高清LED液晶电视</p>-->
+         <!--<p class="price">&yen;1999.00</p>-->
+         <!--<p class="info"><span>报价(6)</span> <span>评论(2286)</span></p>-->
+       <!--</div>-->
+     <!--</li>-->
+
+
+   </ul>
+ </div>
+
+  <div class="pages clearfixed">
+    <!--<span class="prev_btn"><button>上一页</button></span>-->
+    <!--<span>-->
+      <!--<select>-->
+        <!--<option value="">1/1</option>-->
+      <!--</select>-->
+    <!--</span>-->
+    <!--<span class="next_btn"><button>下一页</button></span>-->
+  </div>
+
+</div>
+
+  <!--//尾部-->
+  <footer class="mmm_footer">
+    <ul class="clearfixed">
+      <li><a href="javascript:;">登录</a></li>
+      <li><a href="javascript:;">注册</a></li>
+      <li style="width: 40%"><a href="#">返回顶部</a></li>
+    </ul>
+    <p>
+      <span class="red">手机app下载</span>
+      <span>慢慢买手机版 -- </span>
+      <span class="gray">掌上比价平台</span>
+    </p>
+    <p class="gray">m.manmanbuy.com</p>
+  </footer>
+</div>
+
+<script type="text/html" id="tpl">
+  {{each result v i}}
+  <li class="clearfixed">
+    <a href="bijia.html?productid={{v.productId}}">
+    <div class="pro_left fl">
+      {{@v.productImg}}
+    </div>
+    <div class="pro_right">
+      <p class="proname">{{v.productName}}</p>
+      <p class="price">{{v.productPrice}}</p>
+      <p class="info"><span>{{v.productQuote}}</span> <span>{{v.productCom}}</span></p>
+    </div>
+    </a>
+  </li>
+  {{/each}}
+</script>
+
+  <script type="text/html" id="pages">
+
+    <span class="prev_btn"><button>上一页</button></span>
+    <span>
+      <select>
+        <% for(var i = 1; i <= pages; i++){ %>
+        <option value="{{i}}">{{i}}/{{pages}}</option>
+        <% } %>
+      </select>
+    </span>
+    <span class="next_btn"><button>下一页</button></span>
+
+</script>
+</body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template-web.js"></script>
+<script src="js/common.js"></script>
+<script src="js/productlist.js"></script>
+</html>

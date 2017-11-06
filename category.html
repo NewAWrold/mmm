@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>慢慢买首页</title>
+  <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<div class="container">
+  <!--头部-->
+  <header class="mmm_header">
+    <div class="h_ind_logo">
+      <a href="index.html">
+        <img src="images/header_logo.png">
+        <h1>慢慢买</h1>
+      </a>
+    </div>
+    <div class="h_app_down">
+      <img src="images/header_app.png" alt="">
+    </div>
+  </header>
+
+  <!--内容-->
+  <div class="mmm_body">
+    <!--搜索框-->
+    <div class="ind_search">
+      <div class="input_sou">
+        <input type="text" placeholder="请输入您想比价的商品">
+      </div>
+      <button>搜索</button>
+    </div>
+
+
+   <div class="cate_all">
+      <!--我在这里挖了一个坑-->
+       <!--<div class="cate_title">-->
+         <!--大彩电-->
+       <!--</div>-->
+
+       <div class="cate_list">
+         <!--<ul class="clearfixed">-->
+           <!--<li><a href="#">电视</a></li>-->
+           <!--我在这里挖了一个坑-->
+         <!--</ul>-->
+     </div>
+
+   </div>
+
+
+
+
+  </div>
+
+  <!--//尾部-->
+  <footer class="mmm_footer">
+    <ul class="clearfixed">
+      <li><a href="javascript:;">登录</a></li>
+      <li><a href="javascript:;">注册</a></li>
+      <li style="width: 40%"><a href="#">返回顶部</a></li>
+    </ul>
+    <p>
+      <span class="red">手机app下载</span>
+      <span>慢慢买手机版 -- </span>
+      <span class="gray">掌上比价平台</span>
+    </p>
+    <p class="gray">m.manmanbuy.com</p>
+  </footer>
+</div>
+
+<script type="text/html" id="tit">
+
+  {{each result v i}}
+  <div data-id="{{v.titleId}}" class="cate_title {{i==0?'oneTop':''}}">
+    {{v.title}}
+  </div>
+
+  <div class="cate_list">
+    <ul class="clearfixed">
+    <li><a href="#">电视</a></li>
+    </ul>
+  </div>
+  {{/each }}
+</script>
+
+<script type="text/html" id="con">
+
+  <ul class="clearfixed">
+    {{each result v i}}
+    <li><a href="productlist.html?categoryId={{v.categoryId}}&category={{v.category}}&titleId={{v.titleId}}">{{v.category}}</a></li>
+    {{/each}}
+  </ul>
+</script>
+
+</body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template-web.js"></script>
+<script src="js/category.js"></script>
+</html>
