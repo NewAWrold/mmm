@@ -1,0 +1,67 @@
+.mmm_header {
+  position: relative;
+}
+.mmm_header .iconfont {
+  font-size: 30px;
+  line-height: 50px;
+  padding-left: 10px;
+  color: #fff;
+}
+.mmm_header h3 {
+  position: absolute;
+  font-size: 20px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+.mpro_content {
+  padding: 10px;
+}
+.mpro_content .mpro_tit {
+  font-size: 18px;
+  line-height: 60px;
+}
+.mpro_content .info {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 20px;
+}
+.mpro_content .words {
+  color: #606060;
+}
+.mpro_content .rigfloat {
+  float: right;
+}
+.mpro_content .lh30 {
+  line-height: 40px;
+}
+.mpro_content .area_true {
+  margin: 0 auto;
+}
+.mpro_content .area_true li {
+  width: 120px;
+  padding-bottom: 0;
+  border: 1px dashed #c0c0c0;
+  border-bottom: 0;
+  text-align: center;
+}
+.mpro_content .area_true li span {
+  font-size: 12px;
+  width: 90%;
+}
+.mpro_content .shopping {
+  width: 90%;
+  height: 30px;
+  background-color: #FF9000;
+  display: block;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+.mpro_content .saoma {
+  width: 100%;
+  min-width: 100%;
+}

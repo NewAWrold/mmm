@@ -17,10 +17,12 @@
   }
 }
 
+//内容
 //抬头里的list
 .ind_tit_list {
   padding-top: 20px;
   box-sizing: border-box;
+  font-size: 15px;
 }
 
 .ind_list_left {
@@ -33,5 +35,39 @@
 
 .ind_list_right {
   overflow: hidden;
+  .proname{
+    height: 60px;
+  }
+  .red{
+    color: red;
+  }
+  .other{
+    font-size: 12px;
+    color: #a1a1a1;
+    .icon-message{
+      float: right;
+    }
+  }
 }
 
+//页码编辑
+.page{
+    width: 100%;
+  li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    button{
+      margin:0 auto;
+      width: 83px;
+      height: 33px;
+      border-radius: 5px;
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f1f1), to(#d4d4d4));
+    }
+  }
+  select{
+    width: 83px;
+    height: 33px;
+    padding-left: 10px;
+  }
+}

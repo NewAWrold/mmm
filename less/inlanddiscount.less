@@ -1,0 +1,49 @@
+
+.zhekou_content{
+  width: 80%;
+  max-width: 960px;
+  margin:0 auto;
+  .content{
+    margin-bottom: 30px;
+    .c_one{
+      border:1px solid #f1f1f1;
+      border-bottom: none;
+      width: 50%;
+      float: left;
+      box-sizing: border-box;
+      text-align: center;
+      padding: 10px;
+      img{
+        width: 140px;
+        height: 140px;
+      }
+    .c_title{
+      text-align: left;
+      height: 40px;
+      font-size: 14px;
+      font-weight: 700;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp:2;
+      -webkit-box-orient:vertical;
+    }
+
+     .c_price{
+       text-align: left;
+       margin-bottom: 10px;
+       color: #ff6c00;
+       font-size: 14px;
+     }
+      .c_info{
+        text-align: left;
+        font-size: 12px;
+        color: #666;
+      }
+    }
+
+  }
+}
+.content:nth-child(odd) .c_one{
+  border-right: none;
+}

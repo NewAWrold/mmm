@@ -18,6 +18,7 @@
 .ind_tit_list {
   padding-top: 20px;
   box-sizing: border-box;
+  font-size: 15px;
 }
 .ind_list_left img {
   width: 100px;
@@ -25,4 +26,37 @@
 }
 .ind_list_right {
   overflow: hidden;
+}
+.ind_list_right .proname {
+  height: 60px;
+}
+.ind_list_right .red {
+  color: red;
+}
+.ind_list_right .other {
+  font-size: 12px;
+  color: #a1a1a1;
+}
+.ind_list_right .other .icon-message {
+  float: right;
+}
+.page {
+  width: 100%;
+}
+.page li {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.page li button {
+  margin: 0 auto;
+  width: 83px;
+  height: 33px;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f1f1f1), to(#d4d4d4));
+}
+.page select {
+  width: 83px;
+  height: 33px;
+  padding-left: 10px;
 }
