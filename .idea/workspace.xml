@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a477262-3a82-4e51-81aa-06539f6d26dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/brandTitle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coupon.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/couponproduct.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gsproduct.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/brand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/brandTitle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/coupon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/couponproduct.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/gsproduct.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/sitenav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/brand.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/brandTitle.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/coupon.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/couponproduct.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/gsproduct.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/sitenav.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sitenav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.eot" afterPath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.ttf" afterPath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.woff" afterPath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/baicaijia.html" afterPath="$PROJECT_DIR$/baicaijia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bijia.html" afterPath="$PROJECT_DIR$/bijia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category.html" afterPath="$PROJECT_DIR$/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bcj.css" afterPath="$PROJECT_DIR$/css/bcj.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/common.css" afterPath="$PROJECT_DIR$/css/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/moneyproduct.css" afterPath="$PROJECT_DIR$/css/moneyproduct.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discount.html" afterPath="$PROJECT_DIR$/discount.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/demo_fontclass.html" afterPath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/demo_fontclass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/demo_symbol.html" afterPath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/demo_symbol.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/demo_unicode.html" afterPath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/demo_unicode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.css" afterPath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.js" afterPath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.svg" afterPath="$PROJECT_DIR$/images/font_a1g8xpedcyn1att9/iconfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inlanddiscount.html" afterPath="$PROJECT_DIR$/inlanddiscount.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/baicaijia.js" afterPath="$PROJECT_DIR$/js/baicaijia.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bijia.js" afterPath="$PROJECT_DIR$/js/bijia.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/category.js" afterPath="$PROJECT_DIR$/js/category.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/discount.js" afterPath="$PROJECT_DIR$/js/discount.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/inlanddiscount.js" afterPath="$PROJECT_DIR$/js/inlanddiscount.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/moneyctrl.js" afterPath="$PROJECT_DIR$/js/moneyctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/moneyproduct.js" afterPath="$PROJECT_DIR$/js/moneyproduct.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/productlist.js" afterPath="$PROJECT_DIR$/js/productlist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/bcj.less" afterPath="$PROJECT_DIR$/less/bcj.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/common.less" afterPath="$PROJECT_DIR$/less/common.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/moneyproduct.less" afterPath="$PROJECT_DIR$/less/moneyproduct.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/productList.less" afterPath="$PROJECT_DIR$/less/productList.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moneyctrl.html" afterPath="$PROJECT_DIR$/moneyctrl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moneyproduct.html" afterPath="$PROJECT_DIR$/moneyproduct.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productlist.html" afterPath="$PROJECT_DIR$/productlist.html" />
-    </list>
+    <list default="true" id="8a477262-3a82-4e51-81aa-06539f6d26dc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -207,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/letao" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -317,18 +262,17 @@
       <workItem from="1510016020295" duration="58183000" />
       <workItem from="1510100801135" duration="628000" />
       <workItem from="1510102312534" duration="56220000" />
-      <workItem from="1510187640647" duration="7591000" />
+      <workItem from="1510187640647" duration="7781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221396000" />
+    <option name="totallyTimeSpent" value="221586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17282127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17282127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
