@@ -1,0 +1,18 @@
+.sitenav_more {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.sitenav_more a {
+  border: 1px solid #ccc;
+  float: left;
+  height: 43px;
+  line-height: 43px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 2px 5px;
+}
+.sitenav_more a img {
+  width: 16px;
+  height: 16px;
+}

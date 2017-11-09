@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>mmm省钱控</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/gsproduct.css">
+  <link rel="stylesheet" type="text/css" href="images/font_a1g8xpedcyn1att9/iconfont.css">
+</head>
+<body>
+<div class="container">
+  <!--头部-->
+  <header class="mmm_header ">
+    <div class="h_ind_logo">
+      <a href="javascript:history.go(-1);" class="iconfont icon-return"></a>
+      <h3>凑单品</h3>
+    </div>
+    <div class="h_app_down">
+      <img src="images/header_app.png" alt="">
+    </div>
+  </header>
+
+
+  <div class="gsprod_content">
+    <div class="select">
+      <ul class="clearfixed sel_choise">
+
+       <li class="shop"><span>京东</span></li>
+       <li class="area"><span>华北</span></li>
+       <li class="allPrice"><span>全部价格</span></li>
+
+      </ul>
+      <div class="search">O-</div>
+      <div class="gs_select">
+        <!--<div class="rows">京东</div>-->
+        <!--挖坑-->
+      </div>
+    </div>
+
+    <!--//商品-->
+    <div class="gspro_house">
+      <ul class="clearfixed">
+        <!--挖一个大坑-->
+      </ul>
+    </div>
+  </div>
+
+
+    <!--//尾部-->
+    <footer class="mmm_footer">
+      <ul class="clearfixed">
+        <li><a href="javascript:;">登录</a></li>
+        <li><a href="javascript:;">注册</a></li>
+        <li style="width: 40%"><a href="#">返回顶部</a></li>
+      </ul>
+      <p>
+        <span class="red">手机app下载</span>
+        <span>慢慢买手机版 -- </span>
+        <span class="gray">掌上比价平台</span>
+      </p>
+      <p class="gray">m.manmanbuy.com</p>
+    </footer>
+
+
+
+</div>
+
+<script type="text/html" id="tpl">
+  {{each result v i}}
+  <div class="rows" data-shopid ="{{v.shopId}}">{{v.shopName}}</div>
+  {{/each}}
+</script>
+
+<script type="text/html" id="tpl2">
+  {{each result v i}}
+  <div class="rows" data-areaid="{{v.areaId}}">{{v.areaName}}</div>
+  {{/each}}
+</script>
+
+<script type="text/html" id="tpl3">
+  {{each result v i}}
+  <li class="gspro_list">
+    <div class="inbox">
+      <img src="{{v.productImg}}" alt="">
+      <p class="gs_info">{{v.productName}}</p>
+      <p class="gs_do clearfixed">
+        <span class="price">{{v.productPrice}}</span>
+        <button class="go_btn">去凑单</button>
+      </p>
+    </div>
+  </li>
+  {{/each}}
+</script>
+</body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template-web.js"></script>
+<script src="js/common.js"></script>
+<script src="js/gsproduct.js"></script>
+</html>

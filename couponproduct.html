@@ -6,7 +6,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>mmm省钱控</title>
   <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/moneyctrl.css">
+  <link rel="stylesheet" href="css/couponproduct.css">
   <link rel="stylesheet" type="text/css" href="images/font_a1g8xpedcyn1att9/iconfont.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
   <header class="mmm_header">
     <div class="h_ind_logo">
       <a href="javascript:history.go(-1);" class="iconfont icon-return"></a>
-      <h3>省钱控 - 最新优惠</h3>
+      <h3>肯德基优惠券</h3>
     </div>
     <div class="h_app_down">
       <img src="images/header_app.png" alt="">
@@ -23,14 +23,15 @@
   </header>
 
 
-  <div class="mctrl_content">
-    <ul class="ind_tit_list">
-     <!--我在这里挖一个坑-->
+  <div class="coupon_product_content">
+    <p class="cou_message">
+      --点餐前出示手机中的优惠券，即可享受优惠--
+    </p>
+
+    <ul class="couduct_food">
+      <!--挖一个坑-->
     </ul>
 
-    <div class="page">
-     <!--我在这里挖一个坑-->
-    </div>
   </div>
 
 
@@ -50,45 +51,37 @@
   </footer>
 
 </div>
+
+
+<div class="tanchu">
+  <div class="tan_content">
+    <i class="iconfont icon-return arrow-left"></i>
+    <div class="img"></div>
+    <i class="iconfont icon-enter arrow-right"></i>
+    <span class="tan_del">×</span>
+  </div>
+</div>
+
+
+
 <script type="text/html" id="tpl">
   {{each result v i}}
-  <li class="clearfixed">
-    <a href="moneyproduct.html?productid={{v.productId}}">
-    <div class="ind_list_left fl">
-      {{@v.productImgSm}}
+  <li class="clearfixed" data-id="{{i}}">
+    <div class="pro_left fl">
+     {{@v.couponProductImg}}
     </div>
-    <div class="ind_list_right">
-      <p class="proname">{{v.productName}} <span class="red">{{v.productPinkage}}</span></p>
-      <p class="other">
-        <span>{{v.productFrom}} | {{v.productTime}}</span>
-        <span class="iconfont icon-message">{{v.productComCount}}</span>
-      </p>
+    <div class="pro_right">
+      <p class="proname">{{v.couponProductName}}</p>
+      <p class="price">{{v.couponProductPrice}}</p>
+      <p class="info">{{v.couponProductTime}}</p>
+      <i class="iconfont icon-enter"></i>
     </div>
-   </a>
   </li>
   {{/each}}
-</script>
-
-<script type="text/html" id="page">
-  <ul class="clearfixed">
-    <li>
-      <button class="prve_btn">上一页</button>
-    </li>
-    <li>
-      <select>
-        <% for(var i=0; i< pages; i++){ %>
-        <option value="{{i}}">{{i+1}}/{{pages}}</option>
-        <% } %>
-      </select>
-    </li>
-    <li>
-      <button class="next_btn">下一页</button>
-    </li>
-  </ul>
 </script>
 </body>
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/artTemplate/template-web.js"></script>
 <script src="js/common.js"></script>
-<script src="js/moneyctrl.js"></script>
+<script src="js/couponproduct.js"></script>
 </html>

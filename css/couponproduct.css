@@ -1,0 +1,86 @@
+.coupon_product_content {
+  padding: 0 35px 0 10px;
+}
+.coupon_product_content .cou_message {
+  font-size: 12px;
+  color: #aaa;
+  text-align: center;
+  margin: 5px 0;
+}
+.coupon_product_content li {
+  position: relative;
+  margin-bottom: 10px;
+}
+.coupon_product_content .pro_left img {
+  width: 100px;
+  height: 100px;
+}
+.coupon_product_content .pro_right {
+  padding-left: 20px;
+}
+.coupon_product_content .pro_right .proname {
+  font-size: 14px;
+  height: auto;
+  text-align: justify;
+}
+.coupon_product_content .pro_right .price {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.coupon_product_content .pro_right .info {
+  font-size: 12px;
+  color: #EE7700;
+}
+.coupon_product_content .pro_right i {
+  position: absolute;
+  right: -35px;
+  top: 50%;
+  transform: translateY(-80%);
+  font-size: 26px;
+  line-height: 24px;
+  color: #aaa;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.tanchu {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 998;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.tanchu .tan_content {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  margin: 200px auto;
+  position: relative;
+}
+.tanchu .tan_content i {
+  color: #ccc;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tanchu .tan_content .arrow-left {
+  left: -60px;
+}
+.tanchu .tan_content .arrow-right {
+  right: -60px;
+}
+.tanchu .tan_del {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  right: -20px;
+  top: -40px;
+}

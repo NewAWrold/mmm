@@ -3,7 +3,7 @@
  */
 $.ajax({
   type : "get",
-  url : 'http://192.168.32.47:9090/api/getbaicaijiatitle',
+  url : 'http://'+tools.address()+':9090/api/getbaicaijiatitle',
   success : function (data) {
     console.log(data);
     var lis="";
@@ -40,7 +40,7 @@ $.ajax({
   function render(id) {
     $.ajax({
       type : "get",
-      url : 'http://192.168.32.47:9090/api/getbaicaijiaproduct',
+      url : 'http://'+tools.address()+':9090/api/getbaicaijiaproduct',
       data : {titleid:id},
       success : function (data) {
         // console.log(data);

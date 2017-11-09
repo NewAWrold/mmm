@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>商品和评论</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/brandTitle.css">
+</head>
+<body>
+<div class="container">
+  <!--头部-->
+  <header class="mmm_header">
+    <div class="h_ind_logo">
+      <a href="index.html">
+        <img src="images/header_logo.png">
+        <h1>慢慢买</h1>
+      </a>
+    </div>
+    <div class="h_app_down">
+      <img src="images/header_app.png" alt="">
+    </div>
+  </header>
+
+  <!--内容-->
+  <div class="mmm_body">
+    <!--搜索框-->
+    <div class="ind_search">
+      <div class="input_sou">
+        <input type="text" placeholder="请输入您想比价的商品">
+      </div>
+      <button>搜索</button>
+    </div>
+
+    <div class="cloud_class">
+      <div class="prolist_top">
+        <a href="index.html">首页 ></a>
+        <a href="category.html">全部分类 ></a>
+      </div>
+
+      <!--牌子-->
+      <h3 class="which_good">平板电视哪个牌子好</h3>
+      <div class="top10">
+        <ul>
+         <!--前十名排行榜挖坑-->
+        </ul>
+      </div>
+
+        <!--电视销量-->
+      <h3 class="soleNumber">平板电视产量销量排行</h3>
+      <div class="most_number">
+          <ul class="Sales">
+        <!--销量的坑-->
+          </ul>
+      </div>
+
+    <!--评价-->
+      <h3 class="new_say" style="height: 40px;
+  color: #874604;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  line-height: 40px;">平板电视最新评论</h3>
+    <div class="pinglun_area">
+
+      <div class="most_number italkyoulisten">
+        <!--哇呀挖了一个坑-->
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+  <!--//尾部-->
+  <footer class="mmm_footer">
+    <ul class="clearfixed">
+      <li><a href="javascript:;">登录</a></li>
+      <li><a href="javascript:;">注册</a></li>
+      <li style="width: 40%"><a href="#">返回顶部</a></li>
+    </ul>
+    <p>
+      <span class="red">手机app下载</span>
+      <span>慢慢买手机版 -- </span>
+      <span class="gray">掌上比价平台</span>
+    </p>
+    <p class="gray">m.manmanbuy.com</p>
+  </footer>
+</div>
+
+
+<script type="text/html" id="tel">
+  {{each result v i}}
+  <li>
+    <a href="productlist.html?categoryId={{v.categoryId}}">
+      <em data-emid="{{i+1}}" class="a">{{i+1}}</em>
+      <p class="sha">{{v.brandName}}</p>
+      <p class="info">{{v.brandInfo}}</p>
+    </a>
+  </li>
+  {{/each}}
+</script>
+
+<script type="text/html" id="tpl2">
+  {{each result v i}}
+  <li class="clearfixed" data-productid="{{v.productId}}">
+    <div class="pro_left fl">
+      {{@v.productImg}}
+    </div>
+    <div class="pro_right">
+      <p class="proname">{{v.productName}}</p>
+      <p class="price">{{v.productPrice}}</p>
+      <p class="info"><span>{{v.productQuote}}</span> <span>{{v.productCom}}</span></p>
+      <em class="star5">☆☆☆☆☆</em>
+    </div>
+  </li>
+  {{/each}}
+</script>
+
+
+
+
+<script type="text/html" id="tpl3">
+  {{each result v i}}
+  <ul>
+  <li class="clearfixed pingjia">
+    <div class="pro_left fl">
+    <img src="images/haitao.png" alt="">
+    </div>
+    <div class="pro_right">
+    <p class="proname huise">乐视TV(Letv)S50 Air全配版2D 50英寸 全高清LED液晶电视</p>
+
+  </div>
+  </li>
+  </ul>
+  <div class="say_text">
+    <p class="info clearfixed">
+    <span class="user">
+    {{v.comName}}
+  <strong>☆☆☆☆☆</strong>
+  </span>
+  <span class="time">{{v.comTime}}</span>
+    </p>
+    <p class="desc">{{v.comContent}}  {{v.comFrom}}</p>
+  </div>
+  {{/each}}
+</script>
+
+
+</body>
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/artTemplate/template-web.js"></script>
+<script src="js/common.js"></script>
+<script src="js/brand.js"></script>
+</html>

@@ -13,5 +13,8 @@ var tools={
     searchObj[key] = val;
   }
   return searchObj;
-}
+},
+  address : function () {
+    return "192.168.32.92"
+  }
 };

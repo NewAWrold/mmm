@@ -5,13 +5,14 @@
   // console.log(tools.getURL());
   $.ajax({
     type : "get",
-    url : "http://192.168.32.47:9090/api/getcategorybyid",
+    url : "http://"+tools.address()+":9090/api/getcategorybyid",
     data : {categoryid:tools.getURL().categoryId},
     success : function (data) {
       // console.log(data);
     $('.prolist_top .info').html(data.result[0].category)
     }
   });
+
 
   var currentPage=1;
   var page;
@@ -43,7 +44,7 @@
 function render() {
   $.ajax({
     type : "get",
-    url : "http://192.168.32.47:9090/api/getproductlist",
+    url : "http://"+tools.address()+":9090/api/getproductlist",
     data:{
       categoryid:tools.getURL().categoryId,
       pageid : currentPage
@@ -51,6 +52,7 @@ function render() {
     dataType : "json",
     success : function (data) {
       console.log(data);
+      data.category = tools.getURL().category;
       $('.prolist_content>ul').html( template('tpl',data) );
       //总页数
        page = Math.ceil(data.totalCount/data.pagesize);

@@ -4,7 +4,7 @@
 ;(function () {
   $.ajax({
     type : "get",
-    url : "http://192.168.32.47:9090/api/getcategorytitle",
+    url : "http://"+tools.address()+":9090/api/getcategorytitle",
     success : function (data) {
       console.log(data);
       $('.cate_all').html( template('tit',data) );
@@ -16,7 +16,7 @@
        console.log(id);
        $.ajax({
          type : "get",
-         url : "http://192.168.32.47:9090/api/getcategory",
+         url : "http://"+tools.address()+":9090/api/getcategory",
          data : {titleid:id},
          success : function (data) {
            console.log(data);

@@ -5,7 +5,7 @@
   console.log(tools.getURL().productid);
   $.ajax({
     type : "get",
-    url : "http://192.168.32.47:9090/api/getdiscountproduct",
+    url : "http://"+tools.address()+":9090/api/getdiscountproduct",
     data : {productid:tools.getURL().productid},
     dataType : 'json',
     success : function (data) {

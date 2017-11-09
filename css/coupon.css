@@ -1,0 +1,10 @@
+.logo li {
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-top: 20px;
+}
+.logo li img {
+  width: 50px;
+  height: 50px;
+}

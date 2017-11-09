@@ -7,68 +7,128 @@
     padding-left: 10px;
     color: #fff;
   }
-  h3{
+  h3 {
     position: absolute;
     font-size: 20px;
     top: 10px;
-    left:50%;
+    left: 50%;
     transform: translateX(-50%);
     color: #fff;
   }
 }
 
 //主体内容开始
-.mpro_content{
+.mpro_content {
   padding: 10px;
-  .mpro_tit{
+  .mpro_tit {
     font-size: 18px;
     line-height: 60px;
   }
-  .info{
+  .info {
     font-size: 12px;
     color: #999;
     margin-bottom: 20px;
   }
-  .words{
+  .words {
     color: #606060;
   }
-  .rigfloat{
+  .rigfloat {
     float: right;
   }
-  .lh30{
+  .lh30 {
     line-height: 40px;
   }
 
-.area_true{
+  .area_true {
     margin: 0 auto;
-  li{
-    width: 120px;
-    padding-bottom: 0;
-    border:1px dashed #c0c0c0;
-    border-bottom: 0;
-    text-align: center;
+    #disstorck {
+      margin: 0 auto;
+    }
+    li {
+      width: 120px;
+      padding-bottom: 0;
+      border-bottom: 1px dashed #c0c0c0;
+      //border-bottom: 0;
+      margin: 0 auto;
+      position: relative;
+      span {
+        font-size: 12px;
+        width: 90%;
+        margin-right: 10px;
+        margin-left: 10px;
 
-    span{
-      font-size: 12px;
-      width:90%;
+        strong {
+          color: red;
+          font-weight: 400;
+          position: absolute;
+          right: 10px;
+          bottom: 0;
+        }
+      }
+    }
+
+  }
+  .shopping {
+    width: 90%;
+    display: block;
+    border-radius: 5px;
+    margin: 40px auto;
+    height: 30px;
+    background-color: #FF9000;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+  }
+  .saoma {
+    width: 100%;
+  }
+  .form {
+    position: relative;
+  }
+  #ctl00_ContentBody_txt_nr {
+    width: 100%;
+    height: 110px;
+    resize: none;
+  }
+  #ctl00_ContentBody_Button1 {
+    position: absolute;
+    right: -2px;
+    bottom: 4px;
+    width: 100px;
+    height: 40px;
+    background-color: #FF9000;
+    color: #fff;
+    border-radius: 3px;
+  }
+  .list .ul:after{
+    display: block;
+    content: "";
+    clear: both;
+  }
+  .userimg {
+    float: left;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
     }
   }
-
-}
-.shopping{
-   width:90%;
-   height: 30px;
-   background-color: #FF9000;
-   display: block;
-   text-align: center;
-   color: #fff;
-  line-height: 30px;
-  border-radius: 5px;
-  margin: 20px auto;
-
- }
-.saoma{
-  width: 100%;
-  min-width: 100%;
-}
+  .con{
+    margin-left: 50px;
+    .name{
+      position: relative;
+    }
+    .username{
+      color: #5997c0;
+      font-size: 13px;
+    }
+    .time{
+      position: absolute;
+      right:0;
+      top:0;
+      font-size: 12px;
+      color: #666;
+    }
+  }
 }

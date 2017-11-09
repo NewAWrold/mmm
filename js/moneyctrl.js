@@ -10,7 +10,7 @@
 
   //点击事件
   $('.page').on('click','.prve_btn',function () {
-    if (currentPage <= 1){
+    if (currentPage < 1){
       return false;
     }
     currentPage--;
@@ -35,7 +35,7 @@
   function render() {
     $.ajax({
       type: "get",
-      url: "http://192.168.32.47:9090/api/getmoneyctrl",
+      url: "http://"+tools.address()+":9090/api/getmoneyctrl",
       dataType: "json",
       data: {pageid: currentPage},
 

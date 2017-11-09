@@ -6,6 +6,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>慢慢买首页</title>
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/productList.css">
 </head>
 <body>
 <div class="container">
@@ -36,7 +37,7 @@
  <div class="prolist_top">
    <a href="index.html">首页 ></a>
    <a href="category.html">全部分类 ></a>
-   <a class="info" href="productlist.html"> </a> >
+   <a class="info" href="javascript:;"> </a> >
  </div>
 
  <div class="prolist_content">
@@ -88,7 +89,7 @@
 <script type="text/html" id="tpl">
   {{each result v i}}
   <li class="clearfixed">
-    <a href="bijia.html?productid={{v.productId}}">
+    <a href="bijia.html?productid={{v.productId}}&brandname={{v.brandName}}&category={{category}}">
     <div class="pro_left fl">
       {{@v.productImg}}
     </div>

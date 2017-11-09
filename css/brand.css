@@ -1,0 +1,162 @@
+.which_good {
+  height: 40px;
+  color: #874604;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  line-height: 40px;
+}
+.top10 li {
+  border-top: none;
+  padding: 10px;
+  padding-bottom: 0;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  box-sizing: border-box;
+}
+.top10 li a {
+  display: block;
+  background: url(../images/arrow-right.svg) right center no-repeat;
+  background-size: 20px;
+}
+.top10 li a em {
+  width: 20px;
+  height: 20px;
+  background-color: #c9c9c9;
+  float: left;
+  line-height: 20px;
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+}
+.top10 li a .first {
+  background-color: red;
+}
+.top10 li a .second {
+  background-color: #ff9314;
+}
+.top10 li a .three {
+  background-color: #8adf5b;
+}
+.top10 li a p {
+  line-height: normal;
+  margin-left: 35px;
+}
+.top10 li a .info {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 28px;
+}
+.soleNumber {
+  height: 40px;
+  color: #874604;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  line-height: 40px;
+}
+.most_number li {
+  border-top: none;
+  padding: 10px;
+  padding-bottom: 0;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  box-sizing: border-box;
+}
+.most_number li a {
+  display: block;
+  background: url(../images/arrow-right.svg) right center no-repeat;
+  background-size: 20px;
+}
+.most_number li a em {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  float: left;
+  line-height: 20px;
+  font-style: normal;
+  text-align: center;
+  color: #fff;
+}
+.most_number li a p {
+  line-height: normal;
+  margin-left: 35px;
+}
+.most_number li a .info {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 28px;
+}
+.most_number li {
+  border-bottom: 1px solid #eee;
+}
+.most_number .pro_left img {
+  width: 100px;
+  height: 100px;
+}
+.most_number .pro_right {
+  overflow: hidden;
+  padding-left: 20px;
+  position: relative;
+}
+.most_number .pro_right .proname {
+  font-size: 14px;
+  height: 44px;
+}
+.most_number .pro_right .price {
+  color: red;
+  font-size: 18px;
+  line-height: 30px;
+}
+.most_number .pro_right .info {
+  font-size: 12px;
+  color: gray;
+  line-height: 20px;
+}
+.most_number .pro_right .info span {
+  margin-right: 10px;
+}
+.most_number .pro_right .star5 {
+  color: #ff9000;
+  position: absolute;
+  top: 50px;
+  right: 6px;
+}
+.huise {
+  color: #ccc;
+}
+.pinglun_area {
+  padding: 10px;
+}
+.pinglun_area .new_say {
+  height: 40px;
+  color: #874604;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  line-height: 40px;
+}
+.pinglun_area .say_text {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.pinglun_area .say_text .user {
+  float: left;
+  font-size: 14px;
+  color: #aaa;
+}
+.pinglun_area .say_text .user strong {
+  color: #ff9000;
+  font-size: 20px;
+}
+.pinglun_area .say_text .time {
+  float: right;
+  font-size: 14px;
+  color: #aaa;
+}
+.pinglun_area .say_text .desc {
+  font-size: 14px;
+}
